@@ -84,7 +84,7 @@
 						<argument>install</argument>
 					 <argument>--user</argument>
 						<argument>-r</argument>
-						<argument>requirements.txt</argument>
+						<argument>/data/requirements.txt</argument>
 					</arguments>
 				</configuration>
             		</execution>
