@@ -3,18 +3,18 @@
   <id>aws-glue-test</id>
   <formats> <format>dir</format></formats>
   <includeBaseDirectory>false</includeBaseDirectory>
-	<filesets>
-          <fileset>
+	<fileSets>
+          <fileSet>
 			<directory>${project.basedir}</directory>
 	            <outputDirectory>/</outputDirectory>
-           </fileset>
-	     <fileset>
+           </fileSet>
+	     <fileSet>
 			<directory>${project.basedir}/../src/main/resources/code/python</directory>
 	            <outputDirectory>bin/python</outputDirectory>
-           </fileset>
-	     <fileset>
+           </fileSet>
+	     <fileSet>
 			<directory>${project.basedir}/../src/main/resources/rpmUtils</directory>
 	            <outputDirectory>rpm-utils</outputDirectory>
-           </fileset>
-	</filesets>
+           </fileSet>
+	</fileSets>
 </assembly>
