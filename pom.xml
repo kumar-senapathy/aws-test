@@ -58,6 +58,16 @@
           		</execution>
 		       </executions>
 		</plugin>
+<plugin>
+<groupId>com.google.code.maven-replacer-plugin</groupId>
+<artifactId>replacer</artifactId>
+<executions>
+<execution>
+<id>replace-release-args-in-assembled-files</id>
+<phase>package</phase>
+</execution>
+</executions>
+</plugin>
 		 <plugin>
 			<groupId>org.codehaus.mojo</groupId>
 		    <artifactId>exec-maven-plugin</artifactId>
