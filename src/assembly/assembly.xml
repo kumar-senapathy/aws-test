@@ -1,0 +1,20 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/1.1.0 http://maven.apache.org/xsd/assembly-1.1.0.xsd">
+  <id>aws-glue-test</id>
+  <formats> <format>dir</format></formats>
+  <includeBaseDirectory>false</includeBaseDirectory>
+	<fileSets>
+          <fileSet>
+			<directory>${project.basedir}</directory>
+	            <outputDirectory>/</outputDirectory>
+           </fileset>
+	     <fileSet>
+			<directory>${project.basedir}/../src/main/resources/code/python</directory>
+	            <outputDirectory>bin/python</outputDirectory>
+           </fileset>
+	     <fileSet>
+			<directory>${project.basedir}/../src/main/resources/rpmUtils</directory>
+	            <outputDirectory>rpm-utils</outputDirectory>
+           </fileset>
+	</fileSets>
+</assembly>
