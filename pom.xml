@@ -52,7 +52,7 @@
             		</goals>
 				<configuration>
 			          <descriptors>
-			            <descriptor>/src/assembly/assembly.xml</descriptor>
+			            <descriptor>\src\assembly\assembly.xml</descriptor>
 			          </descriptors>
 			        </configuration>
           		</execution>
@@ -84,7 +84,7 @@
 						<argument>install</argument>
 					 <argument>-user</argument>
 						<argument>-r</argument>
-						<argument>/data/requirements.txt</argument>
+						<argument>\data\requirements.txt</argument>
 					</arguments>
 				</configuration>
             		</execution>
@@ -104,12 +104,12 @@
 					<executable>coverage3</executable>
 				<arguments>
 						<argument>run</argument>
-					 <argument>--source=${basedir}/src/main/resources/code/python</argument>
+					 <argument>--source=${basedir}\src\main\resources\code\python</argument>
 					 <argument>-m</argument>
 					 <argument>unittest</argument>
 					 <argument>discover</argument>
 					 <argument>-s</argument>
-					 <argument>${basedir}/src/test/resources/code/python</argument>
+					 <argument>${basedir}\src\test\resources\code\python</argument>
 				</arguments>
 				</configuration>
 			</execution>
@@ -124,7 +124,7 @@
 					<arguments>
 						<argument>xml</argument>
 						<argument>-o</argument>
-						<argument>${project.build.directory}/scoverage.xml</argument>
+						<argument>${project.build.directory}\scoverage.xml</argument>
 					</arguments>
 				</configuration>
 				</execution>
