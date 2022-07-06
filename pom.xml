@@ -82,9 +82,9 @@
 					<executable>pip3</executable>
 					<arguments>
 						<argument>install</argument>
-					 <argument>-user</argument>
+					<!-- <argument>-user</argument> -->
 						<argument>-r</argument>
-						<argument>\data\requirements.txt</argument>
+						<argument>requirements.txt</argument>
 					</arguments>
 				</configuration>
             		</execution>
