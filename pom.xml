@@ -68,7 +68,7 @@
 </execution>
 </executions>
 </plugin>
-		 <plugin>
+		 <!--<plugin>
 			<groupId>org.codehaus.mojo</groupId>
 		    <artifactId>exec-maven-plugin</artifactId>
 	          <executions>
@@ -82,14 +82,14 @@
 					<executable>pip3</executable>
 					<arguments>
 						<argument>install</argument>
-					<!-- <argument>-user</argument> -->
+					 <argument>-user</argument> 
 						<argument>-r</argument>
 						<argument>C:\ProgramData\Jenkins\.jenkins\workspace\test_docker\requirements.txt</argument>
 					</arguments>
 				</configuration>
             		</execution>
 		</executions>
-		</plugin> 
+		</plugin> -->
 		<plugin>
 			<groupId>org.codehaus.mojo</groupId>
 		    <artifactId>exec-maven-plugin</artifactId>
