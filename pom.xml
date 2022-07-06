@@ -84,7 +84,7 @@
 						<argument>install</argument>
 					<!-- <argument>-user</argument> -->
 						<argument>-r</argument>
-						<argument>requirements.txt</argument>
+						<argument>C:\ProgramData\Jenkins\.jenkins\workspace\test_docker\requirements.txt</argument>
 					</arguments>
 				</configuration>
             		</execution>
