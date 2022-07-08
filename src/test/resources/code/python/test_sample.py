@@ -3,7 +3,6 @@ import signal
 import subprocess
 import boto3
 import unittest
-from src.sample import transform
 from awsglue.context import GlueContext
 from pyspark.sql import SparkSession, DataFrame
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType
