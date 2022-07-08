@@ -104,12 +104,12 @@
 					<executable>coverage3</executable>
 				<arguments>
 						<argument>run</argument>
-					 <argument>--source=${basedir}\src\main\resources\code\python</argument>
+					 <argument>--source=C:\ProgramData\Jenkins\.jenkins\workspace\test_docker\src\main\resources\code\python</argument>
 					 <argument>-m</argument>
 					 <argument>unittest</argument>
 					 <argument>discover</argument>
 					 <argument>-s</argument>
-					 <argument>${basedir}\src\test\resources\code\python</argument>
+					 <argument>C:\ProgramData\Jenkins\.jenkins\workspace\test_docker\src\test\resources\code\python</argument>
 				</arguments>
 				</configuration>
 			</execution>
