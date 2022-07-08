@@ -124,7 +124,7 @@
 					<arguments>
 						<argument>xml</argument>
 						<argument>-o</argument>
-						<argument>${project.build.directory}\scoverage.xml</argument>
+						<argument>C:\ProgramData\Jenkins\.jenkins\workspace\test_docker\scoverage.xml</argument>
 					</arguments>
 				</configuration>
 				</execution>
